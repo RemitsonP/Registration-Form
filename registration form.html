@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viweport" content="width=device-width, initial-scale=1">
+	<title>REGISTER HERE</title>
+</head>
+<style type="text/css">
+	body
+	h1{
+		text-align:center;
+		font-size:40px;
+	}
+	label{
+		font-size:20px;
+	}
+	.reg{
+		width:500px;
+		height:380px;
+		margin:auto;
+		padding:50px;
+		border:40px;
+	}
+	#box{
+		height:30px;
+		width:200px;
+	}
+	#nbox{
+		height:30px;
+		width:150px;
+	}
+	#box1{
+		padding-left:105px;
+	}
+	#box2{
+		padding-left:75px;
+	}
+	#ln{
+		padding-left:60px;
+	}
+	#fm{
+		font-size:18px;
+	}
+	#selct{
+		width:300px;
+		height:30px;
+	}
+	#reg2{
+		width:360px;
+		height:40px;
+	}
+</style>
+<body>
+	<h1><b>Responsive<br>
+	Registration Form</b></h1>
+	<div class="reg">
+		<label>Email <sapn id="box1"><input type="text" id="box" placeholder="Email"></sapn></label>
+		<br><br>
+		<label>Password <span id="box2"><input type="Password" id="box"  placeholder="Password"></span></label>
+		<br><br>
+		<label>Re-Type Password <input type="Password" id="box" placeholder="Re-Type Password"></label>
+		<br><br>
+		<label>First Name <span id="ln">Last Name</span> <br><input type="text" id="nbox" placeholder="First Name"></label>
+		<input type="text" id="nbox" placeholder="Last Name"></label>
+		<br><br>
+		<input type="radio"><span id="fm">Male</span>
+		<span><input type="radio"><span id="fm">Female</span></span>
+		<br><br>
+		<select id="selct">
+			<option>Select Country</option>
+			<option value="USA">USA</option>
+			<option value="germany">Germany</option>
+			<option value="india">India</option>
+			<option value="australia">Australia</option>
+		</select>
+		<br><br>
+		<input type="checkbox">I agree with terms and conditions
+		<br><br>
+		<input type="checkbox">I want to recieve the newsletter
+		<br><br>
+		<input type="button" id="reg2" value="Register">
+	</div>
+</body>
+</html>
